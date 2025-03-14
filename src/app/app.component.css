@@ -1,0 +1,96 @@
+.sliderbar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+  
+.rectangle-1 {
+  width: 250px; /* Ancho cuando está expandido */
+  height: 76px;
+  padding: 8px 16px; /* Ajuste del padding para alinear el ícono con el texto */
+  background: #444444;
+  display: flex;
+  align-items: center;
+  transition: width 0.3s ease; /* Animación de transición */
+}
+  
+.rectangle-1.collapsed {
+  width: 76px; /* Ancho cuando está colapsado */
+  justify-content: center; /* Centra el ícono cuando está colapsado */
+  padding: 8px; /* Padding reducido para el estado colapsado */
+}
+  
+.menu-icon {
+  width: 28px;
+  height: 28px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+  
+.sliderbar-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-left: 16px; /* Espacio entre el ícono y el texto */
+}
+  
+.rectangle-2 {
+  width: 250px; /* Ancho cuando está expandido */
+  height: 1005px;
+  padding: 8px;
+  background: #EBEBEB;
+  transition: width 0.3s ease; /* Animación de transición */
+}
+  
+.rectangle-2.collapsed {
+  width: 76px; /* Ancho cuando está colapsado */
+}
+  
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+nav ul li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+  
+nav ul li a {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el ícono y el texto */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: inherit; /* Hereda el color del texto */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 8px; /* Espaciado interno */
+}
+  
+.icon {
+  width: 28px;
+  height: 28px;
+  color: #444444;
+}
+  
+.text-icon {
+  width: 188px;
+  height: 34px;
+  color: #444444;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.28;
+  letter-spacing: -0.2px;
+  text-align: left;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.rectangle-3 {
+    width: 1845px;
+    height: 76px;
+    padding: 8px 8px 8px 8px;
+    background: #FFFFFF;
+  }
